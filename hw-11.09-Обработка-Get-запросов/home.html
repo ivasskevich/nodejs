@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Main Page</title>
+   <style>
+      .menu-links {
+         display: flex;
+         gap: 30px;
+         font-size: 20px;
+      }
+
+      .menu-item {
+         text-decoration: none;
+         background-color: lightcoral;
+         border-radius: 12px;
+         padding: 12px;
+         color: darkgreen;
+         transition: background-color 0.3s ease;
+      }
+
+      .menu-item:hover {
+         background-color: coral;
+      }
+
+      .menu-item:active {
+         background-color: darksalmon;
+      }
+   </style>
+</head>
+
+<body>
+   <h1>Welcome to the Main Page!</h1>
+   <section class="menu-links">
+      <a class="menu-item" href="./info">About Us</a>
+      <a class="menu-item" href="./login">Log In</a>
+      <a class="menu-item" href="./signup">Sign Up</a>
+   </section>
+</body>
+
+</html>
